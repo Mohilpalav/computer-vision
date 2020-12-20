@@ -19,10 +19,10 @@ Using homography matrices to warp planar regions in images. First we rectify a s
 
 
 Procedure for Image rectification:
-• Take one image with a planar surface.
-• Build and compute homography functions.
-• Warp the planar regions on the image using homography functions. 
-• Crop the image.
+1. Take one image with a planar surface.
+2. Build and compute homography functions.
+3. Warp the planar regions on the image using homography functions. 
+4. Crop the image.
 
 
 Commands:
@@ -33,9 +33,9 @@ python part1 rectify [input_image_file] [co-ordinates] --crop [output_image_file
 
 
 Procedure for Image compositing:
-• Take 2 images one with a planar surface. 
-• Compute the homography between two planes in both images. 
-• Composite one image onto another image with an image mask.
+1. Take 2 images one with a planar surface. 
+2. Compute the homography between two planes in both images. 
+3. Composite one image onto another image with an image mask.
 
 
 Commands:
