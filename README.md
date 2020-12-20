@@ -16,7 +16,7 @@ Procedure:
 
 Command:
 ```
-python part1.py --sigma [sigma_value] --k [kernel_value] [input_imag_file] [output_imag_file]
+python part1.py --sigma [sigma_value] --k [kernel_size] [input_imag_file] [output_imag_file]
 ```
 
 # Part 2
