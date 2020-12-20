@@ -2,7 +2,7 @@
 This repository consists 3 parts:
 
 # Part 1
-Implementing low-level image filtering technique- Gaussian blur to an image.
+Implementing low-level image filtering technique- Gaussian blur to an image.__
 Procedure: 
 1. Load an image file provided on the command line, and decompress it into a numpy array. 
 2. Split the input image into 3 channels (R, G, B) 
@@ -11,7 +11,7 @@ Procedure:
 5. Save the result.
 
 # Part 2
-Using homography matrices to warp planar regions in images. First we rectify a single planar region and then composite one planar region onto another. 
+Using homography matrices to warp planar regions in images. First we rectify a single planar region and then composite one planar region onto another.__ 
 Procedure for Image rectification:
 • Take one image with a planar surface.
 • Build and compute homography functions.
@@ -25,7 +25,7 @@ python part1 rectify [input_image_file] [co-ordinates] --crop [output_image_file
 ```
 
 
-Procedure for Image compositing: 
+Procedure for Image compositing:__ 
 • Take 2 images one with a planar surface. 
 • Compute the homography between two planes in both images. 
 • Composite one image onto another image with an image mask.
@@ -36,7 +36,7 @@ python part2 composite [composite_image_file] [input_image_file] [co-ordinates] 
 ```
 
 # Part 3
-To use the iterative Lucas-Kanade algorithm to track an object from one frame to another.
+To use the iterative Lucas-Kanade algorithm to track an object from one frame to another.__
 
 Commands:
 ```
