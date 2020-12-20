@@ -50,7 +50,7 @@ python part2.py composite [composite_image_file] [input_image_file] [co-ordinate
 
 
 ## Part 3
-To use the iterative Lucas-Kanade algorithm to track an object from one frame to another.
+Using the iterative Lucas-Kanade algorithm to track an object from one frame to another.
 
 
 ### Command:
