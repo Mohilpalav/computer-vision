@@ -32,8 +32,8 @@ Procedure for Image rectification:
 
 ### Command:
 ```
-python part2 rectify [input_image_file] [co-ordinates] [output_image_file]
-python part2 rectify [input_image_file] [co-ordinates] --crop [output_image_file]
+python part2.py rectify [input_image_file] [co-ordinates] [output_image_file]
+python part2.py rectify [input_image_file] [co-ordinates] --crop [output_image_file]
 ```
 
 
@@ -45,7 +45,7 @@ Procedure for Image compositing:
 
 ### Command:
 ```
-python part2 composite [composite_image_file] [input_image_file] [co-ordinates] [composite_mask_image] [output_image_file]
+python part2.py composite [composite_image_file] [input_image_file] [co-ordinates] [composite_mask_image] [output_image_file]
 ```
 
 
@@ -55,5 +55,5 @@ To use the iterative Lucas-Kanade algorithm to track an object from one frame to
 
 ### Command:
 ```
-python part3 --boundingBox [co-ordinates] [image_frame_1] [image_frame_2]
+python part3.py --boundingBox [co-ordinates] [image_frame_1] [image_frame_2]
 ```
