@@ -1,14 +1,14 @@
 # computervision
-This project consists 3 parts:
+This project consists of 3 parts:
 
 
 ## Part 1
-Implementing low-level image filtering technique- Gaussian blur to an image.
+Implementing a low-level image filtering technique- Gaussian blur to an image.
 
 
 Procedure: 
 1. Load an image file provided on the command line, and decompress it into a numpy array. 
-2. Split the input image into 3 channels (R, G, B) 
+2. Split the input image into 3 channels (R, G, B). 
 3. Compute a two-dimensional isotropic Gaussian kernel. 
 4. Convolve the Gaussian kernel with each channel of the image. 
 5. Save the result.
@@ -16,7 +16,7 @@ Procedure:
 
 ### Command:
 ```
-python part1.py --sigma [sigma_value] --k [kernel_size] [input_imag_file] [output_imag_file]
+python part1.py --sigma [sigma_value] --k [kernel_size] [input_image_file] [output_image_file]
 ```
 
 ## Part 2
@@ -32,7 +32,7 @@ Procedure for Image rectification:
 
 ### Command:
 ```
-python part2 rectify [input_image_file] [co-ordinates] [output_imag_file]
+python part2 rectify [input_image_file] [co-ordinates] [output_image_file]
 python part2 rectify [input_image_file] [co-ordinates] --crop [output_image_file]
 ```
 
