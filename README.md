@@ -19,8 +19,11 @@ Procedure for Image rectification:
 • Crop the image.
 
 Commands:
+```
 python part1 rectify [input_image_file] [co-ordinates] [output_imag_file]
 python part1 rectify [input_image_file] [co-ordinates] --crop [output_image_file]
+```
+
 
 Procedure for Image compositing: 
 • Take 2 images one with a planar surface. 
@@ -28,10 +31,14 @@ Procedure for Image compositing:
 • Composite one image onto another image with an image mask.
 
 Commands:
+```
 python part2 composite [composite_image_file] [input_image_file] [co-ordinates] [composite_mask_image] [output_image_file]
+```
 
 # Part 3
 To use the iterative Lucas-Kanade algorithm to track an object from one frame to another.
 
 Commands:
+```
 python part3 --boundingBox [co-ordinates] [image_frame_1] [image_frame_2]
+```
