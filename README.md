@@ -1,6 +1,6 @@
 # computervision
 
-***This code was written as part of the coursework under CS-583 (Introduction to Computer Vision) course at Drexel University.***
+***This code was written as part of the coursework of the CS-583 (Introduction to Computer Vision) course at Drexel University.***
 
 This project consists of 3 parts:
 
