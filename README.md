@@ -1,6 +1,8 @@
 # computervision
-This project consists of 3 parts:
 
+***This code was written as part of the coursework under CS-583 (Introduction to Computer Vision) course at Drexel University.***
+
+This project consists of 3 parts:
 
 ## Part 1
 Implementing a low-level image filtering technique- Gaussian blur to an image.
