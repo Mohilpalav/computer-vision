@@ -1,4 +1,4 @@
-# computervision
+# computer-vision
 
 ***This code was written as part of the coursework of the CS-583 (Introduction to Computer Vision) course at Drexel University.***
 
